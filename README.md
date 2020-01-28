@@ -21,13 +21,29 @@ A Raspberry Pi with ARMv7 or other compatible Architecture
 
 create the .o file with
 ```
-./as -o P1_jsmith1031.o P1_jsmith1031.s
+as -o P1_jsmith1031.o P1_jsmith1031.s
 ```
 compile via gcc with
 ```
-./gcc -o P1_jsmith1031 P1_jsmith1031.o
+gcc -o P1_jsmith1031 P1_jsmith1031.o
 ```
 run with
 ```
 ./P1_jsmith1031
 ```
+### Debugging
+
+There many still be some issues in this program, for Debugging I recommend Good DeBugger
+After compiling, open the program in good debugger via
+```
+gdb P1_jsmith1031
+```
+then layout
+  ```
+  layout reg
+  ```
+then
+  ```
+  start
+  si
+  ```
