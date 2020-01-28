@@ -34,7 +34,7 @@ run with
 ### Debugging
 
 There many still be some issues in this program, for Debugging I recommend Good DeBugger
-After compiling, open the program in good debugger via
+after compiling, open the program in good debugger via
 ```
 gdb P1_jsmith1031
 ```
