@@ -1,5 +1,5 @@
-# Arm-Assembly-InsertionSort
-This is an Arm Assembly implementation of the first round of an Insertion Sort algorithm I wrote for my Computer Organization Course
+# Arm-Assembly-GnomeSort
+This is an Arm Assembly implementation of the first round of an Gnome Sort algorithm I wrote for my Computer Organization Course
 # Project 1
 ITEC 352 Fall 2019
 ## Author
